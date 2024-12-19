@@ -1,0 +1,12 @@
+_format_version: "3.0"
+services:
+  - name: example-service
+    url: http://test-api:5000
+    routes:
+      - id: "e867baf3-b852-5102-9d4c-21821056be40"
+        methods:
+          - "GET"
+          - "OPTIONS"
+        paths:
+          - "/customers"
+        strip_path: false

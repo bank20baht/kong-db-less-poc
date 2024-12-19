@@ -1,0 +1,2 @@
+### kong (GET - no params)
+GET http://localhost:8000/customers
